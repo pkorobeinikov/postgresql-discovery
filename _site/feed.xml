@@ -4,10 +4,10 @@
     <title>Postgresql Discovery</title>
     <description>Блог о исследовании внутреннего устройства СУБД Postgresql.
 </description>
-    <link>http://postgresql-discovery.ru/</link>
-    <atom:link href="http://postgresql-discovery.ru/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Aug 2015 22:18:10 +0300</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2015 22:18:10 +0300</lastBuildDate>
+    <link>http://pkorobeinikov.github.io/postgresql-discovery//</link>
+    <atom:link href="http://pkorobeinikov.github.io/postgresql-discovery//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Aug 2015 22:27:07 +0300</pubDate>
+    <lastBuildDate>Wed, 26 Aug 2015 22:27:07 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -85,8 +85,8 @@ contrib/        &lt;span class=&quot;c&quot;&gt;# Пользовательски
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 03 May 2015 21:20:27 +0300</pubDate>
-        <link>http://postgresql-discovery.ru/2015/05/03/getting-postgresql-source-code.html</link>
-        <guid isPermaLink="true">http://postgresql-discovery.ru/2015/05/03/getting-postgresql-source-code.html</guid>
+        <link>http://pkorobeinikov.github.io/postgresql-discovery//2015/05/03/getting-postgresql-source-code.html</link>
+        <guid isPermaLink="true">http://pkorobeinikov.github.io/postgresql-discovery//2015/05/03/getting-postgresql-source-code.html</guid>
         
         
       </item>
@@ -140,8 +140,8 @@ contrib/        &lt;span class=&quot;c&quot;&gt;# Пользовательски
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 02 May 2015 17:29:27 +0300</pubDate>
-        <link>http://postgresql-discovery.ru/2015/05/02/welcome-to-postgresql-discovery.html</link>
-        <guid isPermaLink="true">http://postgresql-discovery.ru/2015/05/02/welcome-to-postgresql-discovery.html</guid>
+        <link>http://pkorobeinikov.github.io/postgresql-discovery//2015/05/02/welcome-to-postgresql-discovery.html</link>
+        <guid isPermaLink="true">http://pkorobeinikov.github.io/postgresql-discovery//2015/05/02/welcome-to-postgresql-discovery.html</guid>
         
         
       </item>

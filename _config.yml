@@ -4,9 +4,9 @@ email: pkorobeinikov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Блог о исследовании внутреннего устройства СУБД Postgresql.
 baseurl: ""
-url: "http://postgresql-discovery.ru"
+url: "http://pkorobeinikov.github.io/postgresql-discovery/"
 twitter_username: pkorobeinikov
 github_username:  pkorobeinikov
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
