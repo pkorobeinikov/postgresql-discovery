@@ -3,8 +3,8 @@ title: Postgresql Discovery
 email: pkorobeinikov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Блог о исследовании внутреннего устройства СУБД Postgresql.
-baseurl: "http://pkorobeinikov.github.io/postgresql-discovery/"
-url: "http://pkorobeinikov.github.io/postgresql-discovery/"
+baseurl: "http://pkorobeinikov.github.io/postgresql-discovery"
+url: "http://pkorobeinikov.github.io/postgresql-discovery"
 twitter_username: pkorobeinikov
 github_username:  pkorobeinikov
 
