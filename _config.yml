@@ -2,7 +2,7 @@
 title: Postgresql Discovery
 email: pkorobeinikov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Блог о исследовании внутреннего устройства СУБД Postgresql.
+  Блог о исследовании устройства и возможностей СУБД Postgresql.
 baseurl: ""
 url: "http://postgresql-discovery.ru"
 twitter_username: pkorobeinikov
