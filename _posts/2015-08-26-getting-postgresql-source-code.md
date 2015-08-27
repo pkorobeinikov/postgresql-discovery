@@ -67,7 +67,7 @@ contrib/        # Пользовательские расширения
 В каталоге ```contrib/``` на данный момент надодится 49 расширений:
 
 {% highlight bash %}
-ls -d contrib/*/ | wc -l
+> ls -d contrib/*/ | wc -l
 {% endhighlight %}
 
 Загляните в документацию[^doc],
