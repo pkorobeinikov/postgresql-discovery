@@ -29,15 +29,15 @@ date:   "2015-08-26 22:43:12"
 Можно ускорить получение рабочей копии, указав параметр ```--depth 1``` команды ```git clone```. Затем, когда появится время и возможность, выполнить ```git fetch --unshallow``` и получить все оставшиеся коммиты.
 
 {% highlight bash %}
-> git clone git://git.postgresql.org/git/postgresql.git
+$ git clone git://git.postgresql.org/git/postgresql.git
 # или зеркало на github.com:
-> git clone git@github.com:postgres/postgres.git
+$ git clone git@github.com:postgres/postgres.git
 {% endhighlight %}
 
 Что нас ждёт внтури? Я прокомментировал содержимое трех, пожалуй, самых важных каталогов.
 
 {% highlight bash %}
-> tree -d -L 1 src/ doc/ contrib/
+$ tree -d -L 1 src/ doc/ contrib/
 src/
 ├── backend     # Исходный код самого сервера postgresql
 ├── bin         # Исходный код утилит: initdb, pg_ctl, psql и пр.
@@ -67,7 +67,7 @@ contrib/        # Пользовательские расширения
 В каталоге ```contrib/``` на данный момент надодится 49 расширений:
 
 {% highlight bash %}
-> ls -d contrib/*/ | wc -l
+$ ls -d contrib/*/ | wc -l
 {% endhighlight %}
 
 Загляните в документацию[^doc],

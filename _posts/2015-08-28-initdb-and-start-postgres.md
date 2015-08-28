@@ -8,13 +8,13 @@ date:   "2015-08-28 15:41:02"
 Для удобства можно добавить в переменную окружения ```$PATH``` путь до каталога ```bin/``` из нашей установки.
 
 {% highlight bash %}
-> export $PATH=$PATH:$YOUR_WORKSPACE_PATH/postgresql.org/build/bin
+$ export $PATH=$PATH:$YOUR_WORKSPACE_PATH/postgresql.org/build/bin
 {% endhighlight %}
 
 Каталог с базой данных будет размещён в каталоге ```data/``` рядом с каталогом ```build/``` и рабочей копией репозитория:
 
 {% highlight bash %}
-> cd $YOUR_WORKSPACE_PATH/postgresql.org/ && ls -1
+$ cd $YOUR_WORKSPACE_PATH/postgresql.org/ && ls -1
 build           # Каталог сборки
 data            # Здесь будут находится файлы базы данных
 postgresql      # Рабочая копия репозитория postgresql
@@ -23,7 +23,7 @@ postgresql      # Рабочая копия репозитория postgresql
 Теперь создадим базу данных:
 
 {% highlight bash %}
-> initdb -E utf8 -U `id -nu` data
+$ initdb -E utf8 -U `id -nu` data
 {% endhighlight %}
 
 Запуск ```initdb``` подсказывает, как можно запустить сервер:
@@ -36,7 +36,7 @@ Success. You can now start the database server using:
 
 Для запуска мы используем более удобный для нас вариант[^pg_ctl]:
 {% highlight bash %}
-> postgres -D data/
+$ postgres -D data/
 LOG:  database system was shut down at 2015-08-28 15:51:28 MSK
 LOG:  MultiXact member wraparound protections are now enabled
 LOG:  database system is ready to accept connections
@@ -46,7 +46,7 @@ LOG:  autovacuum launcher started
 
 Теперь можно подключиться к только что созданной базе данных:
 {% highlight bash %}
-> psql -d template1
+$ psql -d template1
 psql (9.6devel)
 Type "help" for help.
 {% endhighlight %}

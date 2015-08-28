@@ -13,7 +13,7 @@ date:   "2015-08-27 19:08:13"
 Выполните конфигурацию в каталоге с рабочей копией репозитория.
 
 {% highlight bash %}
-> ./configure --prefix=$YOUR_WORKSPACE_PATH/postgresql.org/build  \
+$ ./configure --prefix=$YOUR_WORKSPACE_PATH/postgresql.org/build  \
     --enable-debug      \
     --enable-depend     \
     --enable-cassert
@@ -22,7 +22,7 @@ date:   "2015-08-27 19:08:13"
 Для ускорения сборки можно выполнить её в несколько потоков:
 
 {% highlight bash %}
-> make -j 8
+$ make -j 8
 {% endhighlight %}
 
 Так как для команды ```./configure``` была задана опция ```--prefix```,
@@ -31,13 +31,13 @@ date:   "2015-08-27 19:08:13"
 и мусор не будет разбросан по системным каталогам:
 
 {% highlight bash %}
-> make install
+$ make install
 {% endhighlight %}
 
 На этом установка завершена. Давайте посмотрим на каталог ```build/```:
 
 {% highlight bash %}
-> tree -L 3 -F build/
+$ tree -L 3 -F build/
 build/
 ├── bin/                            # Утилиты из поставки Postgres
 │   ├── ...
