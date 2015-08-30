@@ -32,6 +32,19 @@ $ git clone https://github.com/postgresql-discovery/postgresql-discovery-vagrant
 
 После развёртывания бокса вы получите виртуальную машину, с необходимым для сборки и установки ``Postgresql`` программным обеспечением и репозиторием ``Postgresql`` с последним коммитом в ветку ``master``.
 
+Войдите на виртуальную машину с помощью команды ``vagrant ssh``.
+Исходные коды будут размещены в каталоге ``workspace/postgresql.org/``.
+
+{% highlight bash %}
+$ vagrant ssh
+...
+$ ls workspace/postgresql.org/
+build  postgresql
+{% endhighlight %}
+
+Теперь можно приступить к конфигурации и сборке самого сервера ``Postgresql`` внтури виртуальной машины.
+Эту вкусную часть работы я оставляю вам.
+
 ---
 
 [^vagrant]: [Vagrant](https://www.vagrantup.com)
