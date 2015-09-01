@@ -44,10 +44,10 @@ $ ps -u `id -nu` f | grep [p]ostgres
 ищет в shared buffer pool'е изменённые страницы,
 извлекает ``bgwriter_lru_maxpages`` и записывает их на диск.
 
+Точкой входа является файл ``src/backend/postmaster/bgwriter.c``.
+
 В следующих постах мы подробнее ознакомимся с алгоритмом ``LRU`` &mdash; ``Least Recently Used`` и подобными ему алгоритмами,
 а так же с фундаментальными структурами данных и их реализацией в ``Postgres``.
-
-Точкой входа является файл ``src/backend/postmaster/bgwriter.c``.
 
 ## wal writer process
 
